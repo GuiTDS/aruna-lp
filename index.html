@@ -9,35 +9,38 @@
 </head>
 
 <body class="bg-[#f5f8f5] font-poppins">
-  <nav
-    class="mx-4 sm:mx-8 md:mx-16 lg:mx-28 mt-6 mb-10 lg:mb-24 flex flex-col lg:flex-row justify-between items-center">
-    <img src="images/aruna-logo.svg" alt="Logo da empresa" class="h-12 sm:h-16 object-cover cursor-pointer" />
+  <nav class="sm:mx-8 md:mx-16 lg:mx-32 mt-6 mb-4 lg:mb-24 flex flex-col lg:flex-row justify-between items-center">
+    <img src="images/aruna-logo.svg" alt="Logo da empresa" class="h-16 lg:h-14 object-cover cursor-pointer" />
     <ul class="lg:flex flex-col sm:flex-row lg:flex-row justify-between items-center gap-4 mt-4 lg:mt-0 text-lg hidden">
-      <li class="hover:text-[#628567]"><a href="#">Sobre Nós</a></li>
-      <li class="hover:text-[#628567]"><a href="#">Beneficios</a></li>
-      <li class="hover:text-[#628567]"><a href="#">Preços</a></li>
+      <li class="hover:text-[#628567]"><a href="#sobre">Sobre Nós</a></li>
+      <li class="hover:text-[#628567]"><a href="#beneficios">Beneficios</a></li>
+      <li class="hover:text-[#628567]"><a href="#precos">Preços</a></li>
     </ul>
     <div class="mt-4 lg:mt-0 hidden lg:block">
       <button class="bg-[#628567] text-white font-semibold px-4 py-2 rounded-lg hover:bg-[#4e6b53]">
         Entre em contato
       </button>
     </div>
+    <hr class="w-full h-2 lg:hidden mt-2" />
   </nav>
 
   <main class="flex flex-col gap-20">
     <div class="lg:mx-32 flex flex-col gap-20">
-      <section class="flex flex-col justify-center items-center mx-10">
-        <h1 class="text-4xl lg:text-5xl flex justify-center text-center font-bold text-[#354638]">Transforme o descanso dos seus
+      <section class="flex flex-col gap-4 justify-center lg:items-center mx-10">
+        <h1 class="text-3xl lg:text-5xl flex justify-center lg:text-center font-bold text-[#354638]">Transforme o
+          descanso dos seus
           convidados em uma
           experiência inesquecível!</h1>
-        <p class="text-lg flex justify-center text-center mt-4 text-[#354638]">Momentos de conforto e revitalização que
+        <p class="flex justify-center lg:text-center lg:text-lg mt-4 text-[#354638]">Momentos de conforto e
+          revitalização que
           seus convidados
-          nunca esquecerão</p>
-        <button class="bg-[#628567] text-white text-xl font-semibold px-8 py-3 rounded-lg mt-4 hover:bg-[#4e6b53]">Saiba
+          nunca esquecerão.</p>
+        <button
+          class="bg-[#628567] text-white text-lg lg:text-xl font-semibold px-4 lg:px-8 py-3 rounded-lg mt-4 hover:bg-[#4e6b53]">Saiba
           mais</button>
       </section>
 
-      <section class="flex flex-row justify-between items-center">
+      <section class="flex flex-row justify-between items-center mx-4 lg:mx-0">
         <img src="images/spa-image-2.jpg" alt="Imagem de um spa"
           class="hidden h-96 w-96 object-cover rounded-2xl shadow-lg lg:block" />
         <img src="images/spa-image-1.jpg" alt="Imagem de um spa"
@@ -47,10 +50,11 @@
       </section>
     </div>
 
-    <section class="lg:mx-32 flex flex-col gap-10">
-      <div class="bg-[#e9efea] flex flex-col gap-10 rounded-2xl py-10 px-16">
-        <h2 class="text-2xl font-semibold">Sobre nós</h2>
-        <p class="text-lg text-left text-[#354638]">É uma cena comum em festas e casamentos, os convidados e os noivos,
+    <section class="lg:mx-32 flex flex-col gap-10" id="sobre">
+      <div class="bg-[#e9efea] flex flex-col gap-10 lg:rounded-2xl py-10 px-16">
+        <h3 class="text-2xl lg:text-2xl font-semibold">Sobre nós</h3>
+        <p class="lg:text-lg text-left text-[#354638]">É uma cena comum em festas e casamentos, os convidados e os
+          noivos,
           tirarem os saltos para descansarem os pés para poderem continuar a diversão na pista de dança.
           A nossa empresa proporciona uma experiência única com massagem profissional nos pés dos seus convidados para
           que
@@ -58,18 +62,20 @@
       </div>
 
       <div class="flex flex-col lg:flex-row gap-10">
-        <div class="bg-[#e9efea] flex flex-col gap-10 rounded-2xl py-10 px-16">
-          <h3 class="text-2xl font-semibold">Especialidade</h3>
-          <p class="text-left text-[#354638] text-lg">A Empresa cuidará dos pés de todos os convidados com uma massagem
+        <div class="bg-[#e9efea] flex flex-col gap-10 lg:rounded-2xl py-10 px-16">
+          <h3 class="text-2xl lg:text-2xl font-semibold">Especialidade</h3>
+          <p class="text-left text-[#354638] lg:text-lg">A Empresa cuidará dos pés de todos os convidados com uma
+            massagem
             relaxante de no mínimo
             5 minutos e
             máximo de 10 minutos, dando tempo assim para que todos os convidados tenham a experiência de poder relaxar
             para voltar a pista de dança com os pés revigorados. As técnicas utilizadas misturam reflexologia e massagem
             relaxante.</p>
         </div>
-        <div class="bg-[#4e6b53] flex flex-col gap-10 rounded-2xl py-10 px-16">
-          <h3 class="text-2xl font-semibold text-white">Localização</h3>
-          <p class="text-left text-white text-lg">Empresa está localizado em Santo André -SP, mas atende toda a região
+        <div class="bg-[#4e6b53] flex flex-col gap-10 lg:rounded-2xl py-10 px-16">
+          <h3 class="text-2xl lg:text-2xl font-semibold text-white">Localização</h3>
+          <p class="text-left text-white lg:text-lg">Empresa está localizado em Santo André -SP, mas atende toda a
+            região
             do ABC paulista,
             São Paulo, Interior
             Paulista e Baixada Santista. Se você ficou interessado pelo nosso trabalho e quer mais informações sobre os
@@ -79,25 +85,28 @@
       </div>
     </section>
 
-    <section class="w-full bg-[#d3dfd4] py-32">
-      <div class="mx-20 flex flex-col gap-12">
-        <h2 class="text-center font-semibold text-3xl text-[#354638]">Por que escolher nossa empresa?</h2>
+    <section class="w-full bg-[#d3dfd4] py-32" id="beneficios">
+      <div class="mx-4 lg:mx-20 flex flex-col gap-12">
+        <h2 class="text-center font-semibold text-2xl lg:text-3xl text-[#354638]">Por que escolher nossa empresa?</h2>
         <div class="flex flex-col gap-10 lg:flex-row lg:justify-evenly items-center">
-          <div class="lg:h-72 lg:w-96 bg-white rounded-xl flex flex-col items-center gap-6 p-2 shadow-lg">
+          <div class="lg:h-72 lg:w-96 bg-white rounded-xl flex flex-col items-center gap-6 p-6 lg:p-2 shadow-lg">
             <img src="images/material-icon.png" alt="Icone de educação" class="h-16 w-16" />
-            <p class="text-center">Todos os materiais necessários para a realização das massagens são fornecidos pela
+            <p class="mx-2 lg:text-center">Todos os materiais necessários para a realização das massagens são fornecidos
+              pela
               nossa empresa, garantindo conforto e praticidade.</p>
           </div>
-          <div class="lg:h-72 lg:w-1/2 p-2 lg:px-20 bg-white rounded-xl flex flex-col items-center gap-6 shadow-lg">
+          <div
+            class="h-72 lg:h-72 lg:w-1/2 p-6 lg:p-2 lg:px-20 bg-white rounded-xl flex flex-col items-center gap-6 shadow-lg">
             <img src="images/education-icon.png" alt="Icone de educação" class="h-16 w-16" />
-            <p class="text-center lg:text-xl font-medium">Nossa equipe é composta exclusivamente por massoterapeutas
+            <p class="mx-2 lg:text-center lg:text-xl">Nossa equipe é composta exclusivamente por massoterapeutas
               formados e altamente
               capacitados para oferecer a melhor experiência.
             </p>
           </div>
-          <div class="lg:h-72 lg:w-96 bg-white rounded-xl flex flex-col items-center gap-6 p-2 shadow-lg">
+          <div class="lg:h-72 lg:w-96 bg-white rounded-xl flex flex-col items-center gap-6 p-6 lg:p-2 shadow-lg">
             <img src="images/service-icon.png" alt="Icone de educação" class="h-8 mt-3 mb-5" />
-            <p class="text-center">Atendimento totalmente personalizado para atender às necessidades do seu evento e
+            <p class="mx-2 lg:text-center">Atendimento totalmente personalizado para atender às necessidades do seu
+              evento e
               surpreender seus convidados.</p>
           </div>
         </div>
@@ -105,11 +114,11 @@
 
     </section>
 
-    <section class="mx-32 flex flex-col items-center gap-10">
-      <h2 class="text-center text-3xl font-semibold text-[#354638]">Preços</h2>
+    <section class="lg:mx-32 flex flex-col lg:items-center gap-10" id="precos">
+      <h2 class="text-center text-2xl lg:text-3xl font-semibold text-[#354638]">Preços</h2>
       <div class="flex flex-col gap-10 lg:flex-row">
         <div
-          class="h-96 w-96 bg-[#628567] p-12 flex flex-col justify-between gap-6 rounded-lg text-center transform transition-transform duration-300 hover:scale-105">
+          class="mx-4 lg:h-96 lg:w-96 bg-[#628567] p-12 flex flex-col justify-between gap-6 rounded-lg text-center transform transition-transform duration-300 hover:scale-105">
           <div class="flex flex-col gap-6">
             <p class="text-white text-lg text-center font-semibold">Plano Básico</p>
             <p class="text-white">2 Horas de atendimento</p>
@@ -120,7 +129,7 @@
         </div>
 
         <div
-          class="h-96 w-96 bg-[#4e6b53] p-12 flex flex-col justify-between gap-6 rounded-lg text-center transform transition-transform duration-300 hover:scale-105">
+          class="mx-4 lg:h-96 lg:w-96 bg-[#4e6b53] p-12 flex flex-col justify-between gap-6 rounded-lg text-center transform transition-transform duration-300 hover:scale-105">
           <div class="flex flex-col gap-6">
             <p class="text-white text-lg text-center font-semibold">Plano Pro</p>
             <p class="text-white">4 Horas de atendimento</p>
@@ -132,12 +141,12 @@
         </div>
 
         <div
-          class="h-96 w-96 bg-[#628567] p-12 flex flex-col justify-between gap-6 rounded-lg text-center transform transition-transform duration-300 hover:scale-105">
+          class="mx-4 lg:h-96 lg:w-96 bg-[#628567] p-12 flex flex-col justify-between gap-6 rounded-lg text-center transform transition-transform duration-300 hover:scale-105">
           <div class="flex flex-col gap-6">
             <p class="text-white text-lg text-center font-semibold">Plano Personalizado</p>
             <p class="text-white">Número de horas à sua escolha</p>
             <p class="text-white">Quantidade de massoterapeutas personalizada</p>
-            <p class="text-white text-2xl font-bold">Valor sob consulta</p>
+            <p class="text-white text-xl lg:text-2xl font-bold">Valor sob consulta</p>
           </div>
           <button class="bg-white text-black font-semibold px-4 py-2 rounded-lg">Solicite um orçamento</button>
         </div>
@@ -145,19 +154,26 @@
     </section>
 
     <section class="lg:mx-32 mx-8 flex flex-col items-center gap-10 my-10">
-      <h2 class="font-semibold text-3xl text-[#354638] text-center">Pronto Para Surpreender Seus Convidados?</h2>
+      <h2 class="font-semibold text-2xl lg:text-3xl text-[#354638] text-center">Pronto Para Surpreender Seus Convidados?
+      </h2>
       <button class="bg-[#628567] rounded-lg px-8 py-3 text-white text-xl font-semibold hover:bg-[#4e6b53]">Entre em
         contato</button>
     </section>
   </main>
 
-  <footer class="h-32 bg-[#151e17]">
-    <div class="mx-32 flex flex-col items-center justify-center">
-      <div class="flex flex-row justify-evenly items-center">
-        <img src="images/instagram-icon.webp" alt="Icone do Instagram" class="h-16 w-16" />
-        <img src="images/whatsapp-icon.png" alt="Icone do Whatsapp" class="h-9 w-9" />
+  <footer class="bg-[#151e17] h-44">
+    <div class="lg:mx-32 flex flex-col">
+      <div class="flex flex-row items-center justify-between mx-4 mt-4">
+        <img src="images/aruna-logo.svg" alt="Logo da empresa" class="h-16  object-cover cursor-pointer" />
+        <div class="flex flex-row items-center justify-evenly">
+          <img src="images/instagram-icon.webp" alt="Icone do Instagram" class="h-16 w-16" />
+          <img src="images/whatsapp-icon.png" alt="Icone do Whatsapp" class="h-9 w-9" />
+        </div>
       </div>
-      <p class="text-white">&copy; Todos os direitos reservados</p>
+      <div class="flex items-center justify-center mx-4 mt-8">
+        <p class="text-white">&copy; Todos os direitos reservados</p>
+
+      </div>
 
     </div>
   </footer>
